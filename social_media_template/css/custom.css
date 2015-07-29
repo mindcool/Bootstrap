@@ -98,15 +98,13 @@ header {
 	overflow: auto;
 }
 
-footer {
-	background: #f4f4f4;
-	height: 90px;
-	color: #04519b;
-	font-weight: bold;
-	text-align: center;
-	padding-top: 40px;
+.profile ul{
 	margin-top: 30px;
-	border-top: 7px solid #04519b;
+}
+
+.profile li{
+	list-style: none;
+	line-height: 1.9em;
 }
 
 .members img {
@@ -123,4 +121,31 @@ footer {
 	.members p {
 		padding-top: 40px;
 	}
+}
+
+.photos {
+	margin: 0;
+	padding: 0;
+}
+
+.photos li{
+	list-style: none;
+	float:left;
+	margin: 5px;
+	width: 23%;
+}
+
+.photos img {
+	width: 100%;
+}
+
+footer {
+	background: #f4f4f4;
+	height: 90px;
+	color: #04519b;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 40px;
+	margin-top: 30px;
+	border-top: 7px solid #04519b;
 }
